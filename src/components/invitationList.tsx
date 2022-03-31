@@ -21,11 +21,14 @@ const InvitationList: React.FC<IProps> = ({ people }) => {
 
 
   return (
-    <ul>
-      {
-        renderList()
-      }
-    </ul>
+    <div>
+      <a href="https://www.youtube.com/watch?v=jrKcJxF0lAU">Course</a>
+      <ul>
+        {
+          renderList()
+        }
+      </ul>
+    </div>
   )
 }
 
